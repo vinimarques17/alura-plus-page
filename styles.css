@@ -26,13 +26,23 @@ body{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.layout__main__box{
+    margin: 0 6em;
 }
 
 .layout__main__title{
     font-size: 28px;
     font-weight: 700;
+}
+
+.layout__main__comboimg{
+    margin: 1em 0 2em 0;
 }
 
 .layout__main__button{
@@ -42,6 +52,7 @@ body{
     color: var(--white-color);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 .layout__main__button2{
     background-color: transparent;
@@ -51,9 +62,64 @@ body{
     color: var(--white-color);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .layout__main__subtitle{
     font-size: 12px;
     color: var(--gray-color);
+}
+
+.layout__second{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 0 10em;
+}
+
+.layout__second__site{
+    width: 80%;    
+}
+
+.layout__second__title{
+    font-family: var(--font-text);
+    color: var(--white-color);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.layout__second__text{
+    font-family: var(--font-text);
+    color: var(--gray-color);
+    font-size: 16px;
+}
+
+.layout__third{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 0 10em;
+}
+
+.layout__third__img{
+    width: 80%;
+    grid-column: 2;
+}
+
+.layout__third__text{
+    font-family: var(--font-text);
+    color: var(--gray-color);
+    font-size: 16px;
+    margin-bottom: 2em;
+    padding-right: 2em;
+    
+}
+
+.layout__third__button{
+    background-color: var(--blue-button);
+    color: var(--white-color);
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 1em;
 }
