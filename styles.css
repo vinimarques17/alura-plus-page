@@ -5,7 +5,8 @@
     --gray-color: #C0C0C0;
     --blue-button: #167BF7;
     --background-color: #00030C;
-    --font-text: 'Inter'
+    --font-text: 'Inter';
+    --button-effect: #519bfc;
 }
 
 *{
@@ -75,6 +76,7 @@ body{
     grid-template-columns: 50% 50%;
     align-items: center;
     margin: 0 10em;
+    height: 100vh;
 }
 
 .layout__second__site{
@@ -100,6 +102,7 @@ body{
     grid-template-columns: 50% 50%;
     align-items: center;
     margin: 0 10em;
+    height: 100vh;
 }
 
 .layout__third__img{
@@ -128,6 +131,7 @@ body{
     grid-template-columns: 50% 50%;
     align-items: center;
     margin: 0 10em;
+    height: 100vh;
 }
 
 .layout__fourth__img{
@@ -147,4 +151,67 @@ body{
     font-family: var(--font-text);
     color: var(--gray-color);
     font-size: 16px;   
+}
+
+.layout__devices{
+    text-align: center;
+}
+
+.layout__devices__title{
+    font-size: 48px;
+    font-family: var(--font-text);
+    color: var(--white-color);
+}
+
+.layout__devices__list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 32px;
+    font-family: var(--font-text);
+    color: var(--white-color);
+    margin: 5em 0;
+}
+
+.footer{
+    text-align: center;
+    margin:5em 3em;
+}
+
+.footer__list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.footer__list__link a{
+    text-decoration: none;
+    color: var(--white-color);
+    margin-left: 1em;
+}
+
+.footer__text{
+    margin: 1em 0;
+    font-size: 14px;
+    color: var(--gray-color);
+}
+
+.footer__list__link a:hover{
+    color: var(--blue-button);
+}
+
+.layout__main__button:hover{
+    background-color: var(--button-effect);
+    color: var(--background-color);
+}
+
+.layout__main__button2:hover{
+    background-color: var(--white-color);
+    color: var(--background-color);
+}
+
+.layout__third__button:hover{
+    background-color: var(--button-effect);
+    color: var(--background-color);
 }
