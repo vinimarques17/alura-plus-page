@@ -104,7 +104,6 @@ body{
 
 .layout__third__img{
     width: 80%;
-    grid-column: 2;
 }
 
 .layout__third__text{
@@ -122,4 +121,30 @@ body{
     border-radius: 8px;
     text-decoration: none;
     padding: 1em;
+}
+
+.layout__fourth{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 0 10em;
+}
+
+.layout__fourth__img{
+    width: 80%;
+}
+
+.layout__fourth__title{
+    font-family: var(--font-text);
+    color: var(--white-color);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+
+}
+
+.layout__fourth__text{
+    font-family: var(--font-text);
+    color: var(--gray-color);
+    font-size: 16px;   
 }
